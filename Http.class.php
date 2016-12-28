@@ -46,6 +46,7 @@ class Http {
         curl_close($cp);
         fclose($fp);
     }
+    
 
     static public function get_file_content($url) {
         //使用curl来抓去url结果
